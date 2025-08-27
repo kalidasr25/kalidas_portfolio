@@ -1,0 +1,37 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+<section class="home-hero projects-hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>My Projects 💼</h1>
+            <p>Here are some of the projects I have built using Python, Django, SQL, and more:</p>
+            <div class="projects-cards">
+                <div class="card">
+    <div class="project-card">
+        <h3>Travel Web Application</h3>
+        <p>
+            A simple and static travel web application designed to help users explore destinations and plan their trips.
+            This lightweight and responsive website provides essential travel information, beautiful imagery, and useful tips for travelers.
+        </p>
+        <p><strong>Skills:</strong> HTML, CSS, Python, SQL, Django</p>
+        <!-- Live Demo button -->
+        <a href="https://kalidas23.pythonanywhere.com/" target="_blank" class="btn btn-outline">Live Demo</a>
+        <!-- GitHub button -->
+        <a href="https://github.com/kalidasr25/travel-web-app" target="_blank" class="btn btn-outline">GitHub</a>
+    </div>
+</div>
+
+                <div class="card">
+                    <h3>Portfolio Website</h3>
+                    <p>My portfolio built with Python, Django, HTML, CSS.</p>
+                    <a href="https://github.com/kalidasr25" target="_blank" class="btn btn-outline">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="{% static 'main/images/profile.jpg' %}" alt="Kalidas">
+        </div>
+    </div>
+</section>
+{% endblock %}
