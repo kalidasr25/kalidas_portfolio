@@ -1,0 +1,22 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+<section class="home-hero contact-hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Contact Me 📬</h1>
+            <p>Feel free to reach out via email, phone, or through my social profiles:</p>
+            <div class="hero-buttons contact-info">
+                <a href="mailto:kalidas.sr23@gmail.com" class="btn btn-outline">Email: kalidas.sr23@gmail.com</a>
+                <a href="tel:+917094109103" class="btn btn-outline">Phone: +91 7094109103</a>
+                <a href="https://maps.google.com/?q=Chennai, Tamil Nadu" target="_blank" class="btn btn-outline">Location: Chennai, Tamil Nadu</a>
+                <a href="https://www.linkedin.com/in/kalidasr" target="_blank" class="btn btn-outline">LinkedIn</a>
+                <a href="https://github.com/kalidasr25" target="_blank" class="btn btn-outline">GitHub</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="{% static 'main/images/profile.jpg' %}" alt="Kalidas">
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block content %}
+<section class="home-hero education-hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Education 🎓</h1>
+            <p>Here’s a summary of my academic background:</p>
+            <div class="hero-buttons education-list">
+                <span class="btn btn-outline">Bachelor of Engineering – Civil<br>
+                    Sudharsan Engineering College, Pudukkottai <br>
+                    Anna University<br>
+                    YOP: 2021 | CGPA: 7.72
+                </span>
+                <span class="btn btn-outline">XII (Mathematics & Biology)<br>
+                    Nirmala Sr. Sec. School, Sri Vijaya Puram<br>
+                    CBSE<br>
+                    YOP: 2016 | Scored: 65%
+                </span>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="{% static 'main/images/profile.jpg' %}" alt="Kalidas">
+        </div>
+    </div>
+</section>
+{% endblock %}
