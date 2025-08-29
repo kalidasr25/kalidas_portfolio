@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41142397-96ee-46b1-b10a-dc4814e91bda" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/main/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/main/admin.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/main/apps.py" beforeDir="false" />
@@ -44,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/portfolio" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
